@@ -1,0 +1,92 @@
+ body {
+     background-color: #2d3e4d;
+ }
+
+ .main {
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ .heading h1 {
+     color: white;
+     font-size: 48px;
+     font-weight: 900;
+     letter-spacing: 1px;
+     padding-top: 2rem;
+     margin: 1rem;
+ }
+
+ .heading h4 {
+    color: white;
+ }
+
+ .search-bar {
+     margin: 1rem 0;
+     width: 400px;
+     height: 40px;
+     border: none;
+     outline: none;
+     border-radius: 1rem;
+     padding: 0.3rem 1rem;
+ }
+
+ #containerFood {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .card {
+     width: 180px;
+     border-radius: 1rem;
+     background-color: black;
+     padding: 5px;
+
+ }
+
+ .img {
+     width: 100%;
+     border-radius: 1rem 1rem 0 0;
+ }
+
+ h3 {
+     color: white;
+     font-size: 18px;
+ }
+
+ .indexContainer {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     width: 720px;
+     height: 400px;
+     align-content: space-between;
+ }
+
+ .numBox {
+     width: 50px;
+     height: 40px;
+     background-color: black;
+     border-radius: 70%;
+     text-align: center;
+     color: black;
+     margin: 0 5px;
+ }
+
+ @media screen and (max-width:800px){
+    .card .img {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .card .img {
+        width: 48%;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .allFood {
+        width: 90%;
+    }
+}

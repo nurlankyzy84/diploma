@@ -1,0 +1,71 @@
+.img1 {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 140px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.inner-content {
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 250px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.recipe-details {
+    width: 85%;
+    margin: 2rem auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: beige;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.details{
+    margin-right: 35px;
+    border-right: 1px solid black;
+    padding-right: 19px;
+}
+
+
+.instructions {
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+
+.details h4 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.h4 {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+.iframe {
+    height: 515px;
+    width: 100%;
+}
+
+.video {
+    width: 80%;
+    margin: 3rem auto;
+}
